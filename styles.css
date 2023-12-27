@@ -67,9 +67,10 @@ ul {
 }
 .goal {
     /* margin: 0 32px; */
-    width: 40%;
+    /* width: 40%; */
     min-width: 600px;
-    margin: 100px 0 100px 200px;
+    /* margin: 100px 0 100px 200px; */
+    
 
 
 }
@@ -90,4 +91,7 @@ ul {
 .contact p {
     margin: 0;
     font-size: 20px;
+}
+footer {
+    background-color: rgb(227, 201, 167);
 }
