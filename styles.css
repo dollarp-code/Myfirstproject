@@ -11,7 +11,7 @@ h1 {
 h2 {
     display: inline-block;
     font-weight: 300;
-    margin: 0 450px 0 0;
+    margin: 0 80px 0 0;
     text-transform: uppercase;
 }
 .links {
@@ -66,10 +66,10 @@ ul {
     font-weight: 300;
 }
 .goal {
-    /* margin: 0 32px; */
-    /* width: 40%; */
+    margin: 0 32px;
+    width: 40%;
     min-width: 600px;
-    /* margin: 100px 0 100px 200px; */
+    margin: 100px 0 100px 200px;
     
 
 
@@ -94,4 +94,26 @@ ul {
 }
 footer {
     background-color: rgb(227, 201, 167);
+}
+
+@media only screen and (max-width: 1000px) {
+    .cards {
+        width: 100%;
+    }
+    .goal {
+        margin: 100px 0 100px 100px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .cards {
+        padding: 0;
+    }
+    .gallery {
+        padding: 8px;
+    }
+    .goal {
+        margin: 0 auto 100px auto;
+        min-width: 450px;
+    }
 }
